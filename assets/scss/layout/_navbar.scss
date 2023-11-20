@@ -1,0 +1,120 @@
+#header_nav{
+    max-width:  100vw;
+    padding: 0, 50px;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .header_nav_main{
+        // max-width: 1170px;
+        width: 65%;
+        min-height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_image{
+            width: 300px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            img{
+                cursor: pointer;
+            }
+        }
+        &_pages{
+            width: 500px;
+            ul{
+                max-width: 450px;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: 20px;
+                li{
+                    font-size: 14px;
+                    color: #252525;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    &:hover{
+                        color: #7fad39;
+                        cursor: pointer;
+                    }
+                }
+                .home{
+                    color: #7fad39;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &_icon{
+            width: 300px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            .fa-heart{
+                width: 30px;
+                height: 20px;
+                position: relative;
+                .bir{
+                    width: 16px;
+                    height: 16px;
+                    font-size: 12px;
+                    border-radius: 50%;
+                    background-color: #7fad39;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -9px;
+                    right: 0px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .fa-bag-shopping{
+                width: 30px;
+                height: 20px;
+                position: relative;
+                .uc{
+                    width: 16px;
+                    height: 16px;
+                    font-size: 12px;
+                    border-radius: 50%;
+                    background-color: #7fad39;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -9px;
+                    right: 0px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            i{
+                font-size: 18px;
+                margin-right: 15px;
+                p{
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+            p{
+                span{
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: #252525;
+                }
+            }
+        }
+    }
+}
